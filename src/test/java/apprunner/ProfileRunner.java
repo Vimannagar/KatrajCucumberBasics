@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		plugin = {"pretty"},
 		
-		tags = "@smoke or @functional"
+		tags = "not @smoke"
 		
 			
 		)

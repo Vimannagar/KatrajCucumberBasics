@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 			
 			features = {"src\\test\\resources\\applicationtest\\LoginPage.feature"},
 			
-			glue = {"steps"},
+			glue = {"steps", "hooks"},
 			
 			plugin = {"pretty"}
 			

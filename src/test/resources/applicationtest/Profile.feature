@@ -1,6 +1,6 @@
 Feature: profile functionality
 
-@smoke
+@smoke @regression
 Scenario: Add profile
 Given User should available at profile page
 When User click on add button
